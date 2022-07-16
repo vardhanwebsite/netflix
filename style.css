@@ -1,0 +1,520 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+      }
+
+      .body{
+         display: flex;
+        flex-direction: column;
+       
+      }
+
+     
+
+      .container{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        height: auto;
+     
+        
+      }
+
+      .header{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgg.jpg) ;
+        height:100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+       
+      }
+      
+      .navbar{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+      }
+      
+     .nav-right{
+        display: flex;
+          height:100px;
+          margin-left: 40px;
+          margin-bottom: 10px;
+         
+          
+     }
+
+     .nav-left{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 80px;
+        gap: 20px;
+     }
+
+     .btn{
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        height: 40px;
+        width:60%;
+        margin-top: 30px;
+       
+     }
+
+     .dp{
+        background-color: grey;
+        color: white;
+        border: none;
+     }
+
+     .btn2{
+        background-color: red;
+        color: white;
+        border: none;
+        margin-top: 30px;
+        border-radius: 4px;
+        height: 40px;
+        width:90px;
+        font: weight 40px;;
+     }
+
+     .mid-head{
+        text-align: center;
+     }
+
+     .main{
+        color:white;
+        font-size: 45px;
+        margin-top: 120px;
+        font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+       
+     }
+
+
+     .main-2{
+        color: white;
+        font-size: 25px;
+       font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+       
+     }
+
+
+     .main-3{
+        color: white;
+        font-size: 20px;
+        font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+     }
+
+   .email{
+      display: flex;
+      flex-direction: row;
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+
+   .input{
+      height: 70px;
+    width: 38%;
+    outline: none;
+    align-items: center;
+   }
+     
+   .btn-3{
+     
+      height: 70px;
+      width: 15%;
+      font-size: 20px;
+      color: white;
+      background: #e50914;
+      outline: none;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border: none;
+     
+   }
+
+
+   .line{
+      background-color:rgb(43, 42, 42);
+       height: 7px;
+       border:none;
+    }
+
+
+   .middle{
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      
+     
+      
+   }
+
+   
+
+   .mid-right{
+      display: flex;
+      flex-direction: column;
+   }
+
+   .mid-left{
+      height: auto;
+   }
+
+
+   .tv{
+      width:100%;
+      height: 400px;
+   }
+
+ 
+   .mobile{
+      width:100%;
+      height: 350px;
+   }
+
+   
+   .main-4{
+      color:white;
+      font-size: 50px;
+      margin-top: 80px;
+      font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+   }
+
+
+
+
+    .question{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      text-align: center;
+      
+    }
+
+   .freq{
+     text-align: center;
+   }
+
+   .collapsible{
+      width: 61%;
+      height: 70px;
+      color:white;
+      background-color: rgb(58, 54, 54);
+      outline: none;
+      font-size: 25px;
+      display: flex;
+     cursor: pointer;
+      flex-direction: row;
+       justify-content: space-between;
+       padding-top: 15px;
+      font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+   }
+
+
+   
+    
+    .collapsible:after {
+      content: '\002B';
+      font-size: 35px;
+      color: white;
+     
+      
+      
+    }
+    
+    .active:after {
+      content: "\2212";
+    }
+    
+    .content {
+      padding: 0 18px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+      width: 61%;
+      height: 230px;
+      color:white;
+      text-align: center;
+      background-color: rgb(58, 54, 54);
+      outline: none;
+      font-size: 25px;
+    }
+
+
+    .input-1{
+      height: 60px;
+    width: 60%;
+    outline: none;
+    align-items: center;
+   }
+     
+   .btn-5{
+     
+      height: 60px;
+      width: 30%;
+      font-size: 20px;
+      color: white;
+      background: #e50914;
+      outline: none;
+      border-top-right-radius: 2px;
+      border-bottom-right-radius: 2px;
+      border: none;
+     
+   }
+
+    .footer{
+        display: flex;
+      flex-direction: row;
+      width:100%;
+      justify-content:space-around;
+      flex-wrap: wrap;
+    
+     
+    }
+
+     .num{
+      display: flex;
+      width: 100%;
+   
+      color:white
+     }
+     
+     .none{
+      visibility: hidden;
+      width: 8%;
+     }
+
+
+     .column-1{
+      color:white;
+      height:250px;
+      justify-content: space-evenly;
+      display: flex;
+      flex-direction: column;
+     
+     }
+
+     .btn-2{
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+      height: 40px;
+      width:80px;
+      margin-top: 30px;
+     
+   }
+
+
+
+     .last-footer{
+      display: flex;
+      flex-direction: row;
+
+     }
+  
+      .net{
+         color: white;
+      }
+
+
+      @media screen and (max-width: 552px) {
+         
+         
+      .container{
+         display: flex;
+         flex-direction: column;
+         background-color: black;
+         height: auto;}
+
+         .header{
+            display: flex;
+            flex-direction: column;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgg.jpg) ;
+            height:auto;
+            width: 100%;
+            background-repeat: no-repeat;
+           
+          }
+
+          .nav-right{
+            display: flex;
+              height:80px;
+              margin-left: 10px;
+              margin-bottom: 40px;
+              margin-top: 10px;
+          }
+
+          .nav-left{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding-right: 30px;
+            gap: 15px;
+         }
+
+
+         .main{
+            color:white;
+            font-size: 25px;
+            margin-top: 60px;
+            font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+           
+         }
+    
+    
+         .main-2{
+            color: white;
+            font-size: 17px;
+           font-family: Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+           
+         }
+    
+    
+         .main-3{
+            color: white;
+            font-size: 10px;
+            font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+         }
+
+
+         .input{
+            height: 50px;
+          width: 50%;
+          outline: none;
+          align-items: center;
+         }
+           
+         .btn-3{
+           
+            height: 50px;
+            width: 25%;
+            font-size: 15px;
+            color: white;
+            background: #e50914;
+            outline: none;
+            border-top-right-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border: none;
+           
+         }
+         
+         .mid-right{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+         }
+        
+         .mid-left{
+            height: auto;
+            margin-bottom: 40px;
+         }
+
+         .middle{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            height: auto;
+            
+          }
+
+
+          .collapsible{
+            width: 81%;
+            height: 50px;
+            color:white;
+            background-color: rgb(58, 54, 54);
+            outline: none;
+            font-size: 15px;
+            display: flex;
+           cursor: pointer;
+            flex-direction: row;
+             justify-content: space-between;
+             padding-top: 15px;
+            font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+         }
+
+         .main-4{
+            color:white;
+            font-size: 40px;
+            margin-top: 60px;
+            font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+      
+         }
+
+
+         .collapsible:after {
+            content: '\002B';
+            font-size: 23px;
+            color: white;
+           
+            
+            
+          }
+          
+          .active:after {
+            content: "\2212";
+          }
+          
+          .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            width: 81%;
+            height: 230px;
+            color:white;
+            text-align: center;
+            background-color: rgb(58, 54, 54);
+            outline: none;
+            font-size: 25px;
+          }
+
+
+          .footer{
+            display: flex;
+          flex-direction: row;
+          width:90%;
+          justify-content:space-between;
+          flex-wrap: wrap;
+          margin-right:40px;
+          margin-left: 5px;
+        
+         
+        }
+    
+
+          .column-1{
+            color:white;
+            height:250px;
+            justify-content: space-evenly;
+            display: flex;
+            font-size: 13px;
+            font-weight: 3px;
+            flex-direction: column;
+           
+           }
+
+
+
+          
+         
+           .dp{
+            background-color: grey;
+            color: white;
+            border: none;
+            height: 40px;
+            width:80px;
+         }
+
+      }
