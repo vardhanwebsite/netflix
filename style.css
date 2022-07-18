@@ -225,6 +225,7 @@
        justify-content: space-between;
        padding-top: 15px;
       font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+      padding:12px;
    }
 
 
@@ -460,6 +461,7 @@
              justify-content: space-between;
              padding-top: 15px;
             font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+             padding:4rem;
          }
 
          .main-4{
