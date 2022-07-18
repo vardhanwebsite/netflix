@@ -126,6 +126,13 @@
     align-items: center;
    }
      
+
+
+    #arr{
+      font-weight: 60px;
+      font-size: 25px;
+   }
+
    .btn-3{
      
       height: 70px;
