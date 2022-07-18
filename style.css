@@ -490,7 +490,7 @@
             overflow: hidden;
             transition: max-height 0.2s ease-out;
             width: 81%;
-            height: 230px;
+            height: auto;
             color:white;
             text-align: justify;
             background-color: rgb(58, 54, 54);
