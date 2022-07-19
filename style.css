@@ -125,14 +125,12 @@
     outline: none;
     align-items: center;
    }
-     
 
-
-    #arr{
+   #arr{
       font-weight: 60px;
       font-size: 25px;
    }
-
+     
    .btn-3{
      
       height: 70px;
@@ -223,8 +221,9 @@
      cursor: pointer;
       flex-direction: row;
        justify-content: space-between;
+       padding-top: 15px;
       font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-       padding:15px;
+      padding:12px;
    }
 
 
@@ -251,7 +250,7 @@
       width: 61%;
       height: 230px;
       color:white;
-      text-align: justify;
+      text-align: center;
       background-color: rgb(58, 54, 54);
       outline: none;
       font-size: 25px;
@@ -346,10 +345,11 @@
          .header{
             display: flex;
             flex-direction: column;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgg.jpg) ;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgg.jpg)  cover;
             height:auto;
             width: 100%;
             background-repeat: no-repeat;
+
            
           }
 
@@ -368,17 +368,6 @@
             padding-right: 30px;
             gap: 15px;
          }
-         
-         
-          .btn{
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
-        height: 40px;
-        width:40%;
-        margin-top: 30px;
-       
-     }
 
 
          .main{
@@ -460,7 +449,7 @@
              justify-content: space-between;
              padding-top: 15px;
             font-family:Netflix Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
-               padding:15px;
+            padding:14px;
          }
 
          .main-4{
@@ -491,12 +480,12 @@
             overflow: hidden;
             transition: max-height 0.2s ease-out;
             width: 81%;
-            height: auto;
+            height: 230px;
             color:white;
-            text-align: justify;
+            text-align: center;
             background-color: rgb(58, 54, 54);
             outline: none;
-            font-size: 15px;
+            font-size: 25px;
           }
 
 
@@ -537,32 +526,3 @@
          }
 
       }
-
-
-
-      @media screen and (max-width: 356px) {
-         
-        .nav-left{
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        padding-right: 80px;
-        gap: 20px;
-           margin-bottom:30px;
-     }
-
-         
-         
-         .btn{
-        background-color: transparent;
-        color: white;
-        border: 1px solid white;
-        height: 40px;
-        width:90px;
-        margin-left:30px;
-       
-     }
-         
-         
-         
-}
