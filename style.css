@@ -310,6 +310,11 @@
      
      }
 
+      .column-1  a{
+      text-decoration: none;
+      color: white;
+     }
+
      .btn-2{
       background-color: transparent;
       color: white;
