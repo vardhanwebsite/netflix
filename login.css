@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+.container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bgg.jpg) ;
+    height:100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+    
+  }
+
+  .header{
+    padding: 20px, 50px;
+    position: relative;
+    z-index: 10;
+   
+  }
+
+  .logo img{
+    height: 95px;
+    width: 167px;
+   
+  }
+
+  .login_body{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height:530px;
+    margin-left: 50%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform:translateX(-50%);
+
+  }
+  
+  .login_body h2{
+    font-size: 32px;
+    color:white;
+    margin-bottom: 10px;
+
+  }
+
+  .login_body input{
+    height: 50px;
+    width: 100%;
+      border-radius: 3px;
+      color: #fff;
+      background: #333;
+      border: 1px solid #333;
+      padding: 15px;
+      box-sizing: border-box;
+      outline: none;
+      
+  }
+
+  .input_wrap{
+    margin-bottom: 25px;
+  }
+
+  .login_body button{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background: #e50914;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none
+  }
+
+  .support{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 15px; 
+  }
+
+.support input{
+  height: 15px;
+  width: 15px;
+}
+
+  .remeber{
+    display: flex;
+    align-items: center;
+  }
+  .remeber span{
+    margin:3px;
+    height: 20px;
+  }
+
+  .login_fb{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #737373;
+  }
+
+  .login_fb img{
+    width: 20px;
+    height: 20px;
+    
+  }
+
+  .login_fb span{
+    margin-right: 10px;
+    font-size: 15px;
+  }
+
+  .login_fb span a{
+    text-decoration: none;
+    color: #737373;
+
+  }
+  .sign_up{
+    font-size: 16px;
+    color: #737373;
+    margin-top: 10px;
+  }
+
+  .sign_up a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .term{
+    font-size: 16px;
+    color: #737373;
+    margin-top: 10px;
+  }
+
+  .term a{
+    text-decoration: none;
+    color: #0071eb;
+  }
+
+
+  @media screen and (max-width: 693px) {
+    .login_body{
+       width: 90%;
+    }
+  }
+
+
+  @media screen and (max-width: 331px) {
+    .login_body{
+       width: 90%;
+       height: 640px;
+    }
+
+    .container{
+      height: 740px;
+    }
+  }
+     
