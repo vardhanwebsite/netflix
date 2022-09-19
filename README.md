@@ -11,7 +11,7 @@ I have build a responsive website that will display images. links and descriptio
 ## Description
 - This is my netflix  website
 - In this website i can create Sign up form also
--In  this website i can create net speed test also
+- In  this website i can create net speed test also
 
 
 
@@ -21,7 +21,7 @@ I have build a responsive website that will display images. links and descriptio
 - Style.css
 - Images
 - Script.js
-## Authors
+## Host Link
 
 - host link-(https://vanetflix.netlify.app/)
 
